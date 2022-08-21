@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>MASTER MONEY</title>
+</head>
+<body>
+    <main>
+        <h1 class="mon">Money Monster</h1>
+         <section>
+        <h3 class="bold">Income</h3>
+
+      <div class="bold flex">
+            <h4>income : </h4>
+            <input id="income" class="input" type="text" value="">
+        </div>
+        <h2>EXPENSES</h2>
+      <div class="bold flex">
+            <h4>food : </h4>
+            <input id="food" class="input" type="text" value="">
+        </div>
+      <div class="bold flex">
+            <h4 class="text-h4">rent:</h4>
+            <input id="rent" class="input" type="text" value="">
+        </div>
+      <div class="bold flex">
+            <h4 class="text-h4">cloth:</h4>
+            <input id="cloth" class="input" type="text" value="">
+        </div>
+        <button id="calculate-btn" class="btn btn1">calculate</button>
+    </section>
+    <div>
+        <h3 class="expa-bala">TOTAL EXPENSE: <span id="total-expense"></span></h3>
+        <h3 class="expa-bala">BALANCE: <span id="total-save"></span></h3>
+    </div>
+    <div class="flex het">
+        <p>save : </p><input id="save-per"  class="input" type="text" value="20"> % <button class="btn1" id="save">Save</button>
+       
+    </div>
+    <h5 class="mon">Saving Amount : <span id="saving-amount">2000</span></h5>
+    <h5 class="mon">Remaining Amount : <span id="Remaining-amount">2500</span></h5>
+    </main>
+        <script src="./js/cost.js"></script>   
+</body>
+</html>
